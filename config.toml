@@ -1,0 +1,21 @@
+baseurl = "http://echorand.me/linux_voice_4/"
+languageCode = "en-us"
+title = "Today I Learned"
+theme = "hyde-x"
+canonifyurls = true
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 2
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+highlight = "zenburn"
+home = "Home"
+github = "https://github.com/amitsaha"
+twitter = "https://twitter.com/echorand"
+rss = true
