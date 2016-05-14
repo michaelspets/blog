@@ -2,7 +2,7 @@ baseurl = "http://echorand.me/linux_voice_4/"
 languageCode = "en-us"
 title = "Today I Learned"
 theme = "hyde-x"
-canonifyurls = true
+disqusShortname = "hugo-todayilearned"
 
 [[menu.main]]
     name = "About"
