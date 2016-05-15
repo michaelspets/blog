@@ -1,6 +1,6 @@
 BASEDIR=$(CURDIR)
 OUTPUTDIR=$(BASEDIR)/public
-TMPDIR=/tmp/
+TMPDIR=/tmp
 
 # default target
 serve:
@@ -21,6 +21,6 @@ github: publish
 	git add -A .
 	git commit -m "New build" || true
 	git push -f origin master gh-pages
-	rm -rf $(TMPDIR)
+	rm -rf $(TMPDIR)/public
 
 .PHONY:  github publish serve
