@@ -1,6 +1,6 @@
 BASEDIR=$(CURDIR)
 OUTPUTDIR=$(BASEDIR)/public
-TMPDIR="/tmp/public"
+TMPDIR=/tmp/public
 
 # default target
 serve:
