@@ -1,6 +1,6 @@
 BASEDIR=$(CURDIR)
 OUTPUTDIR=$(BASEDIR)/public
-TMPDIR=/tmp
+TMPDIR=`mktemp -d 2>/dev/null || mktemp -d -t 'hugo-public'`
 
 # default target
 serve:
@@ -22,5 +22,7 @@ github: publish
 	git commit -m "New build" || true
 	git push -f origin master gh-pages
 	rm -rf $(TMPDIR)/public
+	# back to master
+	git checkout master
 
 .PHONY:  github publish serve
