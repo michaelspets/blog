@@ -17,7 +17,7 @@ github: publish
 	
 	# gh-pages branch (build artificats)
 	git checkout gh-pages
-	cp -r $(TMPDIR)/* .
+	cp -r $(TMPDIR)/public/* .
 	git add -A .
 	git commit -m "New build" || true
 	git push -f origin master gh-pages
