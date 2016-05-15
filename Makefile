@@ -1,6 +1,6 @@
 BASEDIR=$(CURDIR)
 OUTPUTDIR=$(BASEDIR)/public
-TMPDIR=`mktemp -d 2>/dev/null || mktemp -d -t 'hugo-public'`
+TMPDIR=$(shell mktemp -d 2>/dev/null || mktemp -d -t 'hugo-public')
 
 # default target
 serve:
