@@ -1,6 +1,6 @@
 BASEDIR=$(CURDIR)
 OUTPUTDIR=$(BASEDIR)/public
-TMPDIR=/tmp/public
+TMPDIR=/tmp/
 
 # default target
 serve:
@@ -11,7 +11,7 @@ publish:
 
 github: publish
 	# master branch (content)
-	cp -r $(OUTPUTDIR)/* $(TMPDIR)/*
+	cp -r $(OUTPUTDIR) $(TMPDIR)
 	git add -A .
 	git commit -m "New post/page" || true
 	
@@ -19,8 +19,8 @@ github: publish
 	git checkout gh-pages
 	cp -r $(TMPDIR)/* .
 	git add -A .
-	#git commit -m "New build" || true
-	#git push -f origin master gh-pages
-	#rm -rf $(TMPDIR)
+	git commit -m "New build" || true
+	git push -f origin master gh-pages
+	rm -rf $(TMPDIR)
 
 .PHONY:  github publish serve
