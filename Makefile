@@ -11,7 +11,7 @@ publish:
 
 github: publish
 	# master branch (content)
-	cp -r $(OUTPUTDIR) $(TMPDIR)
+	cp -r $(OUTPUTDIR)/* $(TMPDIR)/*
 	git add -A .
 	git commit -m "New post/page" || true
 	
