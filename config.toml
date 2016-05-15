@@ -2,7 +2,9 @@ baseurl = "http://echorand.me/linux_voice_4/"
 languageCode = "en-us"
 title = "Today I Learned"
 theme = "hyde-x"
+
 disqusShortname = "hugo-todayilearned"
+googleAnalytics = "UA-77766553-1"
 
 [[menu.main]]
     name = "About"
