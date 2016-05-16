@@ -1,6 +1,6 @@
 BASEDIR=$(CURDIR)
 OUTPUTDIR=$(BASEDIR)/public
-WORKINGDIR=$(TMPDIR)/hugo_public
+WORKINGDIR=/tmp/hugo_public
 
 # default target
 serve:
@@ -11,17 +11,17 @@ publish:
 
 github: publish
 	# master branch (content)
-	cp -r $(OUTPUTDIR) $(WORKINGDIR)
+	cp -r $(OUTPUTDIR)/ $(WORKINGDIR)
 	git add -A .
 	git commit -m "New post/page" || true
 	
 	# gh-pages branch (build artificats)
 	git checkout gh-pages
-	cp -r $(WORKINGDIR)/public/* .
+	cp -r $(WORKINGDIR)/* .
 	git add -A .
 	git commit -m "New build" || true
 	git push -f origin master gh-pages
-	rm -rf $(WORKINGDIR)/public
+	rm -rf $(WORKINGDIR)
 	# back to master
 	git checkout master
 
