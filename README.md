@@ -11,7 +11,7 @@ Here you will find the entire site which we built in the article in Linux Voice,
 - [Syntax Highlighting](https://gohugo.io/extras/highlighting)
 - [Templates](https://gohugo.io/templates/homepage/)
 - [hyde-x theme](https://github.com/zyro/hyde-x)
-- [Datafiles](https://gohugo.io/extras/datafiles#the-datafolder)
+- [Data files](https://gohugo.io/extras/datafiles#the-datafolder)
 
 # Others
 
