@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Updates on michaelspets</title>
-    <link>http://github.com/michaelspets.github.io/categories/updates/</link>
-    <description>Recent content in Updates on michaelspets</description>
+    <title>Updates on Today I Learned</title>
+    <link>https://michaelspets.git.io/blog/categories/updates/</link>
+    <description>Recent content in Updates on Today I Learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jul 2016 10:20:07 +0300</lastBuildDate>
-    <atom:link href="http://github.com/michaelspets.github.io/categories/updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2016 08:05:42 +1000</lastBuildDate>
+    <atom:link href="https://michaelspets.git.io/blog/categories/updates/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hello world</title>
-      <link>http://github.com/michaelspets.github.io/post/hello-world/</link>
-      <pubDate>Wed, 20 Jul 2016 10:20:07 +0300</pubDate>
+      <link>https://michaelspets.git.io/blog/post/hello-world/</link>
+      <pubDate>Thu, 12 May 2016 08:05:42 +1000</pubDate>
       
-      <guid>http://github.com/michaelspets.github.io/post/hello-world/</guid>
-      <description>&lt;p&gt;Hello World! This is the first blog post in my brand new blog which was built by an Amit Saha&amp;rsquo;s article in Linux Voice. I will try to use this blog as place to post my notes on everyday things I learn.&lt;/p&gt;
+      <guid>https://michaelspets.git.io/blog/post/hello-world/</guid>
+      <description>&lt;p&gt;Hello World! This is the first blog post in my brand new blog &amp;ldquo;Today I Learned&amp;rdquo;. I will be using this
+blog as a place to post my notes on everyday things I learn.&lt;/p&gt;
 </description>
     </item>
     
