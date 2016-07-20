@@ -6,5 +6,5 @@ title = "About"
 
 +++
 
-This is a blog about things that I learn everyday. It is built using [Hugo](https://gohugo.io).
+This is a blog about things that I learn everyday. It is built using [Hugo](https://gohugo.io) and it is proudly hosted by [GitHub](https://github.com).
 

@@ -3,7 +3,7 @@ categories = ["hugo"]
 date = "2016-05-14T11:32:10+10:00"
 keywords = []
 title = "Demo of shortcodes"
-
+draft = true
 +++
 
 [Shortcodes](https://gohugo.io/extras/shortcodes/) in Hugo allow us to achieve common tasks. For example, to link to another [post]({{< ref "post/hello-world.md" >}}) or [page]({{< ref "page/about.md" >}}) in our site,
