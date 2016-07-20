@@ -5,6 +5,6 @@ categories = ["updates"]
 +++
 
 
-Hello World! This is the first blog post in my brand new blog "Today I Learned". I will be using this
-blog as a place to post my notes on everyday things I learn.
+Hello World! This is the first blog post in my brand new blog which was built by an Amit Saha's article in Linux Voice. I will be using this
+blog as a place to post my notes on everyday things I learn. I hope you will like it.
 
