@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on Today I Learned</title>
-    <link>http://echorand.me/linux_voice_4/categories/code/</link>
+    <link>https://michaelspets.git.io/blog/categories/code/</link>
     <description>Recent content in Code on Today I Learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 May 2016 17:02:38 +1000</lastBuildDate>
-    <atom:link href="http://echorand.me/linux_voice_4/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michaelspets.git.io/blog/categories/code/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Syntax highlighting code</title>
-      <link>http://echorand.me/linux_voice_4/post/syntax-highlighting-code/</link>
+      <link>https://michaelspets.git.io/blog/post/syntax-highlighting-code/</link>
       <pubDate>Fri, 13 May 2016 17:02:38 +1000</pubDate>
       
-      <guid>http://echorand.me/linux_voice_4/post/syntax-highlighting-code/</guid>
+      <guid>https://michaelspets.git.io/blog/post/syntax-highlighting-code/</guid>
       <description>&lt;p&gt;I learned about how to post syntax highlighted code in a post. Hugo has two
 options when it comes to syntax highlighting - server side and client side.&lt;/p&gt;
 
