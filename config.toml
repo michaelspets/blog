@@ -2,6 +2,8 @@ baseurl = "https://michaelspets.github.io/blog/"
 languageCode = "en-us"
 title = "Today I Learned"
 theme = "hyde-x"
+disqusShortname = "mspets-todayilearned"
+googleAnalytics = "UA-81152217-1"
 
 [[menu.main]]
     name = "About"
