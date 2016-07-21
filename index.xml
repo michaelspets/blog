@@ -6,8 +6,22 @@
     <description>Recent content on Today I Learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 May 2016 11:32:10 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Jul 2016 18:37:04 +0300</lastBuildDate>
     <atom:link href="https://michaelspets.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Restful web services</title>
+      <link>https://michaelspets.github.io/blog/post/restful-web-services/</link>
+      <pubDate>Thu, 21 Jul 2016 18:37:04 +0300</pubDate>
+      
+      <guid>https://michaelspets.github.io/blog/post/restful-web-services/</guid>
+      <description>&lt;p&gt;Restful web services are your web services that are implemented using HTTP and the principles of REST, which means that they have a base URI.&lt;/p&gt;
+
+&lt;p&gt;They support a data exchange format like XML or JSON and possibly others.&lt;/p&gt;
+
+&lt;p&gt;And they support a set of HTTP operations like GET and POST.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Demo of shortcodes</title>
