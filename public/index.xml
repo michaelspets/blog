@@ -6,8 +6,20 @@
     <description>Recent content on Today I Learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jul 2016 18:37:04 +0300</lastBuildDate>
-    <atom:link href="https://michaelspets.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jun 2017 23:49:59 +0300</lastBuildDate>
+    
+	<atom:link href="https://michaelspets.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debug a Java app in Docker</title>
+      <link>https://michaelspets.github.io/blog/post/debug-java-in-docker/</link>
+      <pubDate>Mon, 05 Jun 2017 23:49:59 +0300</pubDate>
+      
+      <guid>https://michaelspets.github.io/blog/post/debug-java-in-docker/</guid>
+      <description>To debug an application running inside a container run your container
+$docker run -p 5005:5005 \ -e JAVA_OPTIONS=&#39;-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005&#39; \ your_java_image  After that your application will stop and wait for a debugger. So, open your IDE and attach a debugger to Port: 5005.</description>
+    </item>
     
     <item>
       <title>Restful web services</title>
@@ -15,12 +27,9 @@
       <pubDate>Thu, 21 Jul 2016 18:37:04 +0300</pubDate>
       
       <guid>https://michaelspets.github.io/blog/post/restful-web-services/</guid>
-      <description>&lt;p&gt;Restful web services are your web services that are implemented using HTTP and the principles of REST, which means that they have a base URI.&lt;/p&gt;
-
-&lt;p&gt;They support a data exchange format like XML or JSON and possibly others.&lt;/p&gt;
-
-&lt;p&gt;And they support a set of HTTP operations like GET and POST.&lt;/p&gt;
-</description>
+      <description>Restful web services are your web services that are implemented using HTTP and the principles of REST, which means that they have a base URI.
+They support a data exchange format like XML or JSON and possibly others.
+And they support a set of HTTP operations like GET and POST.</description>
     </item>
     
     <item>
@@ -29,13 +38,9 @@
       <pubDate>Sat, 14 May 2016 11:32:10 +1000</pubDate>
       
       <guid>https://michaelspets.github.io/blog/post/demo-of-shortcodes/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/extras/shortcodes/&#34;&gt;Shortcodes&lt;/a&gt; in Hugo allow us to achieve common tasks. For example, to link to another &lt;a href=&#34;https://michaelspets.github.io/blog/post/hello-world/&#34;&gt;post&lt;/a&gt; or &lt;a href=&#34;https://michaelspets.github.io/blog/page/about/&#34;&gt;page&lt;/a&gt; in our site,
-we will use the &amp;ldquo;ref&amp;rdquo; shortcode.&lt;/p&gt;
-
-&lt;p&gt;An example of embedding a GitHub gist:&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/amitsaha/9864ec0475dd9b68c4a38be37726e552.js&#34;&gt;&lt;/script&gt;
-</description>
+      <description>Shortcodes in Hugo allow us to achieve common tasks. For example, to link to another post or page in our site, we will use the &amp;ldquo;ref&amp;rdquo; shortcode.
+An example of embedding a GitHub gist:
+ </description>
     </item>
     
     <item>
@@ -44,29 +49,9 @@ we will use the &amp;ldquo;ref&amp;rdquo; shortcode.&lt;/p&gt;
       <pubDate>Fri, 13 May 2016 17:02:38 +1000</pubDate>
       
       <guid>https://michaelspets.github.io/blog/post/syntax-highlighting-code/</guid>
-      <description>&lt;p&gt;I learned about how to post syntax highlighted code in a post. Hugo has two
-options when it comes to syntax highlighting - server side and client side.&lt;/p&gt;
-
-&lt;p&gt;This is an example of client side highlighting. You can read all about it
-&lt;a href=&#34;http://gohugo.io/extras/highlighting/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# A line of Python
-print(&#39;Hello world&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// A simple program in Golang
-package main
-
-import (
-     &amp;quot;fmt&amp;quot;
-)
-
-func main() {
-     fmt.Println(&amp;quot;Hello world&amp;quot;)
- }
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>I learned about how to post syntax highlighted code in a post. Hugo has two options when it comes to syntax highlighting - server side and client side.
+This is an example of client side highlighting. You can read all about it here.
+# A line of Python print(&#39;Hello world&#39;)  // A simple program in Golang package main import ( &amp;quot;fmt&amp;quot; ) func main() { fmt.Println(&amp;quot;Hello world&amp;quot;) }  </description>
     </item>
     
     <item>
@@ -75,10 +60,8 @@ func main() {
       <pubDate>Fri, 13 May 2016 07:58:08 +1000</pubDate>
       
       <guid>https://michaelspets.github.io/blog/page/about/</guid>
-      <description>&lt;p&gt;Hello, my name is Michael Spetsiotis and this is a blog about things that I learn everyday. It is built using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and proudly hosted by &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Credits to &lt;a href=&#34;https://echorand.me&#34;&gt;Amit Saha&lt;/a&gt; and &lt;a href=&#34;https://linuxvoice.com&#34;&gt;Linux Voice&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Hello, my name is Michael Spetsiotis and this is a blog about things that I learn everyday. It is built using Hugo and proudly hosted by GitHub.
+Credits to Amit Saha and Linux Voice.</description>
     </item>
     
     <item>
@@ -87,10 +70,7 @@ func main() {
       <pubDate>Thu, 12 May 2016 09:20:03 +1000</pubDate>
       
       <guid>https://michaelspets.github.io/blog/post/hugo-live-reload/</guid>
-      <description>&lt;p&gt;Hugo has a live reload feature which means, the moment I save this page, not only is my site content
-regenerated, but the browser also reloads the site. This means, I can see my new post without
-needing to refresh the site myself.&lt;/p&gt;
-</description>
+      <description>Hugo has a live reload feature which means, the moment I save this page, not only is my site content regenerated, but the browser also reloads the site. This means, I can see my new post without needing to refresh the site myself.</description>
     </item>
     
     <item>
@@ -99,9 +79,7 @@ needing to refresh the site myself.&lt;/p&gt;
       <pubDate>Thu, 12 May 2016 08:05:42 +1000</pubDate>
       
       <guid>https://michaelspets.github.io/blog/post/hello-world/</guid>
-      <description>&lt;p&gt;Hello World! This is the first blog post in my brand new blog which was built by an Amit Saha&amp;rsquo;s article in Linux Voice. I will be using this
-blog as a place to post my notes on everyday things I learn. I hope you will like it.&lt;/p&gt;
-</description>
+      <description>Hello World! This is the first blog post in my brand new blog which was built by an Amit Saha&amp;rsquo;s article in Linux Voice. I will be using this blog as a place to post my notes on everyday things I learn. I hope you will like it.</description>
     </item>
     
   </channel>
