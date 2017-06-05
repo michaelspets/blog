@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.22-DEV" />
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Today I Learned &middot; </title>
+
+  
+  <link rel="stylesheet" href="https://michaelspets.github.io/blog/css/poole.css">
+  <link rel="stylesheet" href="https://michaelspets.github.io/blog/css/hyde.css">
+  <link rel="stylesheet" href="https://michaelspets.github.io/blog/css/poole-overrides.css">
+  <link rel="stylesheet" href="https://michaelspets.github.io/blog/css/hyde-overrides.css">
+  <link rel="stylesheet" href="https://michaelspets.github.io/blog/css/hyde-x.css">
+  <link rel="stylesheet" href="https://michaelspets.github.io/blog/css/highlight/zenburn.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://michaelspets.github.io/touch-icon-144-precomposed.png">
+  <link href="https://michaelspets.github.io/favicon.png" rel="icon">
+
+  
+  
+  
+  <link href="https://michaelspets.github.io/blog/index.xml" rel="alternate" type="application/rss+xml" title="Today I Learned &middot; " />
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-81152217-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+      <h1></h1>
+      
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="https://michaelspets.github.io/blog">Home</a></li>
+      
+      <li class="sidebar-nav-item"><a href="https://michaelspets.github.io/blog/page/about/">About</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/michaelspets"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://michaelspets.github.io/blog/index.xml" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      </li>
+    </ul>
+
+    
+
+    <p>Copyright &copy; 2017 <a href="https://michaelspets.github.io/license/">License</a><br/>
+       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="posts">
+    
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="https://michaelspets.github.io/blog/post/debug-java-in-docker/">Debug a Java app in Docker</a>
+      </h1>
+      <span class="post-date">Jun 5, 2017 &middot; 1 minute read &middot; <a href="https://michaelspets.github.io/blog/post/debug-java-in-docker/#disqus_thread">Comments</a>
+      
+      <br/>
+      <a class="label" href="https://michaelspets.github.io/blog/categories/docker">docker</a><a class="label" href="https://michaelspets.github.io/blog/categories/java">java</a>
+      </span>
+      
+      To debug an application running inside a container run your container
+$docker run -p 5005:5005 \ -e JAVA_OPTIONS='-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005' \ your_java_image  After that your application will stop and wait for a debugger. So, open your IDE and attach a debugger to Port: 5005.
+      
+      
+    </div>
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="https://michaelspets.github.io/blog/post/restful-web-services/">Restful web services</a>
+      </h1>
+      <span class="post-date">Jul 21, 2016 &middot; 1 minute read &middot; <a href="https://michaelspets.github.io/blog/post/restful-web-services/#disqus_thread">Comments</a>
+      
+      <br/>
+      <a class="label" href="https://michaelspets.github.io/blog/categories/rest">rest</a><a class="label" href="https://michaelspets.github.io/blog/categories/web-services">web services</a>
+      </span>
+      
+      Restful web services are your web services that are implemented using HTTP and the principles of REST, which means that they have a base URI.
+They support a data exchange format like XML or JSON and possibly others.
+And they support a set of HTTP operations like GET and POST.
+      
+      
+    </div>
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="https://michaelspets.github.io/blog/post/demo-of-shortcodes/">Demo of shortcodes</a>
+      </h1>
+      <span class="post-date">May 14, 2016 &middot; 1 minute read &middot; <a href="https://michaelspets.github.io/blog/post/demo-of-shortcodes/#disqus_thread">Comments</a>
+      
+      <br/>
+      <a class="label" href="https://michaelspets.github.io/blog/categories/hugo">hugo</a>
+      </span>
+      
+      Shortcodes in Hugo allow us to achieve common tasks. For example, to link to another post or page in our site, we will use the &ldquo;ref&rdquo; shortcode.
+An example of embedding a GitHub gist:
+ 
+      
+      
+    </div>
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="https://michaelspets.github.io/blog/post/syntax-highlighting-code/">Syntax highlighting code</a>
+      </h1>
+      <span class="post-date">May 13, 2016 &middot; 1 minute read &middot; <a href="https://michaelspets.github.io/blog/post/syntax-highlighting-code/#disqus_thread">Comments</a>
+      
+      <br/>
+      <a class="label" href="https://michaelspets.github.io/blog/categories/golang">golang</a><a class="label" href="https://michaelspets.github.io/blog/categories/code">code</a><a class="label" href="https://michaelspets.github.io/blog/categories/python">python</a>
+      </span>
+      
+      I learned about how to post syntax highlighted code in a post. Hugo has two options when it comes to syntax highlighting - server side and client side.
+This is an example of client side highlighting. You can read all about it here.
+# A line of Python print('Hello world')  // A simple program in Golang package main import ( &quot;fmt&quot; ) func main() { fmt.Println(&quot;Hello world&quot;) }  
+      
+      
+    </div>
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="https://michaelspets.github.io/blog/post/hugo-live-reload/">Hugo Live Reload</a>
+      </h1>
+      <span class="post-date">May 12, 2016 &middot; 1 minute read &middot; <a href="https://michaelspets.github.io/blog/post/hugo-live-reload/#disqus_thread">Comments</a>
+      
+      <br/>
+      <a class="label" href="https://michaelspets.github.io/blog/categories/blogging">blogging</a><a class="label" href="https://michaelspets.github.io/blog/categories/hugo">hugo</a>
+      </span>
+      
+      Hugo has a live reload feature which means, the moment I save this page, not only is my site content regenerated, but the browser also reloads the site. This means, I can see my new post without needing to refresh the site myself.
+      
+      
+    </div>
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="https://michaelspets.github.io/blog/post/hello-world/">hello world</a>
+      </h1>
+      <span class="post-date">May 12, 2016 &middot; 1 minute read &middot; <a href="https://michaelspets.github.io/blog/post/hello-world/#disqus_thread">Comments</a>
+      
+      <br/>
+      <a class="label" href="https://michaelspets.github.io/blog/categories/updates">updates</a>
+      </span>
+      
+      Hello World! This is the first blog post in my brand new blog which was built by an Amit Saha&rsquo;s article in Linux Voice. I will be using this blog as a place to post my notes on everyday things I learn. I hope you will like it.
+      
+      
+    </div>
+    
+    
+
+  </div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "mspets-todayilearned";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+<script src="https://michaelspets.github.io/blog/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+

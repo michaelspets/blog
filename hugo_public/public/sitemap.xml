@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/post/debug-java-in-docker/</loc>
+    <lastmod>2017-06-05T23:49:59+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/post/restful-web-services/</loc>
+    <lastmod>2016-07-21T18:37:04+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/post/demo-of-shortcodes/</loc>
+    <lastmod>2016-05-14T11:32:10+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/post/syntax-highlighting-code/</loc>
+    <lastmod>2016-05-13T17:02:38+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/page/about/</loc>
+    <lastmod>2016-05-13T07:58:08+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/post/hugo-live-reload/</loc>
+    <lastmod>2016-05-12T09:20:03+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/post/hello-world/</loc>
+    <lastmod>2016-05-12T08:05:42+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/blogging/</loc>
+    <lastmod>2016-05-12T09:20:03+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/</loc>
+    <lastmod>2016-05-12T09:20:03+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/code/</loc>
+    <lastmod>2016-05-13T17:02:38+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/docker/</loc>
+    <lastmod>2017-06-05T23:49:59+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/golang/</loc>
+    <lastmod>2016-05-13T17:02:38+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/tags/golang/</loc>
+    <lastmod>2016-05-12T09:20:03+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/hugo/</loc>
+    <lastmod>2016-05-14T11:32:10+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/java/</loc>
+    <lastmod>2017-06-05T23:49:59+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/page/</loc>
+    <lastmod>2016-05-13T07:58:08+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/post/</loc>
+    <lastmod>2017-06-05T23:49:59+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/python/</loc>
+    <lastmod>2016-05-13T17:02:38+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/rest/</loc>
+    <lastmod>2016-07-21T18:37:04+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/tags/</loc>
+    <lastmod>2016-05-12T09:20:03+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/</loc>
+    <lastmod>2017-06-05T23:49:59+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/updates/</loc>
+    <lastmod>2016-05-12T08:05:42+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelspets.github.io/blog/categories/web-services/</loc>
+    <lastmod>2016-07-21T18:37:04+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
